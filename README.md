@@ -1,6 +1,8 @@
 # fstack
 
-FSTACK merging images of mutiple focal planes into one in-focus image.
+FSTACK merging images of mutiple focal planes into one in-focus image. This script is a polished version of the codes posted at this link : http://www.magiclantern.fm/forum/index.php?topic=11886.0 It works on the sample dataset found at the link as well. For each dataset, parameter has to be tuned carefully. 
+
+Input must be a cell array of images taken at different focal planes, with each cell containing a single color or grayscale image.
 
 edofimg = fstack(img) merges img, an img array containing grayscale or
 color images acquired at mutiple focal distance, into one all-in-focus
